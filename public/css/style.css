@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,300&display=swap');
+body{
+    font-family: lato;
+    margin: 0px;
+    padding: 0px;
+}
+#newsletter{
+    display: grid;
+    background-color: violet;
+    grid-template-columns: repeat (3,1fr);
+    height: 30px;
+    padding-top: 10px;
+}
+.logo{
+    margin-left: 10px;
+}
+#champs_newsletter{
+    grid-column: 2/3;
+}
+button{
+    border: none;
+    background-color: green;
+}
+nav{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+#logo{
+    margin-left: 10px;
+}
+.logo{
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    margin: 10px;
+}
+.menu > ul{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+.menu > ul > li > a{
+    color: black;
+    text-decoration: none;
+}
+.menu > ul > li{
+    list-style: none;
+    width: 150px;
+    margin-left: 30px;
+}
+#cowork{
+    width: 200px;
+}
+.menu{
+    border-bottom: 1px solid black;
+    height: 55px;
+}
+#contenu{
+    margin-left: 300px;
+    margin-right: 300px;
+}
+h1,h2{
+    font-size: 3em;
+}
+h1{
+    text-align: center;
+}
+#section{
+    padding-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+}
+#facebook{
+    grid-column: 4/5;
+}
+span{
+    color: white;
+}
+footer{
+    height: 400px;
+    background-color: rgb(26, 26, 26);
+}
+.centrage{
+    margin-top: 100px;
+    text-align: center;
+}
